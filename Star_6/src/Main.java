@@ -7,6 +7,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         BigInteger a = scan.nextBigInteger();
         BigInteger b = scan.nextBigInteger();
+        System.out.println("이 줄만 삭제하면 정답");
         System.out.println(a.divide(b));
         System.out.println(a.remainder(b));
     }
